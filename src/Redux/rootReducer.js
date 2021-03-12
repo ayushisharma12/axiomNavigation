@@ -30,6 +30,7 @@ const rootReducer = (state=initState , action) => {
                             return {...state,isLoggedin:true,activeUser:user}
                         }
                     }
+					break;
                     /* falls through */
                 }
 
